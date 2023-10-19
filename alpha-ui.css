@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Noto+Sans:wght@600&display=swap');
 
 * {
@@ -68,8 +69,17 @@ background: #424242;
 padding: 6px;
 border-radius: 4px;
 text-align: center;
-padding-left: 10px;
-padding-right: 10px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.slider-nudge {
+background-image: url("https://thevoidunknown.github.io/PA-Alpha-CSS/editor-icons/editor_gui_left.png");
+background-position: center;
+background-size: 70%;
+background-repeat: no-repeat;
+width: 20px;
+cursor: pointer;
 }
 
 input[type=radio] {
