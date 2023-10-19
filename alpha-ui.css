@@ -171,7 +171,7 @@ box-sizing: border-box;
 }
 
 label.color[id*="radio-color"] {
-background-image: url("https://thevoidunknown.github.io/TypeText-Generator/editor_gui_dropper.png") !important;
+background-image: url("https://thevoidunknown.github.io/PA-Alpha-CSS/editor-icons/editor_gui_dropper.png") !important;
 background-size: 99% !important;
 background-position: center !important;
 }
