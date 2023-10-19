@@ -82,6 +82,15 @@
   width: 20px;
   cursor: pointer;
   }
+
+  .input-nudge {
+  background-image: url("https://thevoidunknown.github.io/PA-Alpha-CSS/editor-icons/editor_gui_left.png");
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  width: 20px;
+  cursor: pointer;
+  }
   
   input[type=radio] {
   display: none;
@@ -129,6 +138,22 @@
   border: 0px;
   font-family: Noto Sans;
   font-size: 1rem;
+  }
+
+  input[type=number] {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  min-height: 25px;
+  border: 0px;
+  font-family: Noto Sans;
+  font-size: 1rem;
+  -moz-appearance: textfield;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
   }
   
   input[type=text]:focus {
@@ -220,4 +245,41 @@
   color: #212121;
   font-weight: 400;
   height: 20px;
+  }
+
+  .origin-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: fit-content;
+  justify-content: space-between;
+  }
+
+  label.origin {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background: #3b3b3b;
+  }
+
+  label.origin-corner {
+  background-image: url("https://thevoidunknown.github.io/PA-Alpha-CSS/editor-icons/editor_gui-02.png") !important;
+  background-size: 99% !important;
+  background-position: center !important;
+  }
+
+
+  label.origin-middle {
+  background-image: url("https://thevoidunknown.github.io/PA-Alpha-CSS/editor-icons/editor_gui-05.png") !important;
+  background-size: 99% !important;
+  background-position: center !important;
+  }
+
+  label.origin-center {
+  background-image: url("https://thevoidunknown.github.io/PA-Alpha-CSS/editor-icons/editor_gui_middle_center.png") !important;
+  background-size: 89% !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
   }
