@@ -1,3 +1,4 @@
+
   @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Noto+Sans:wght@400;600&display=swap');
   
   * {
@@ -196,6 +197,20 @@
   transition-duration: 0.3s;
   transition-property: background, color;
   box-sizing: border-box;
+  }
+
+  label.theme {
+  width: fit-content;
+  height: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transition-property: background, color;
+  box-sizing: border-box;
+  }
+  
+  label.theme.focused {
+  padding-top: 2.5px;
   }
   
   label.color[id*="radio-color"] {
